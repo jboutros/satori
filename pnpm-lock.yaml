@@ -103,8 +103,8 @@ importers:
         specifier: ^1.6.3
         version: 1.6.3
       twrnc:
-        specifier: ^3.4.0
-        version: 3.4.0(postcss@8.4.21)(react-native@0.72.4)
+        specifier: ^4.6.0
+        version: 4.6.0(postcss@8.4.21)(react-native@0.72.4)
       typescript:
         specifier: ^5
         version: 5.1.3
@@ -8477,6 +8477,7 @@ packages:
 
   /sudo-prompt@9.2.1:
     resolution: {integrity: sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: true
 
   /supports-color@5.5.0:
@@ -8788,10 +8789,10 @@ packages:
       turbo-windows-arm64: 1.6.3
     dev: true
 
-  /twrnc@3.4.0(postcss@8.4.21)(react-native@0.72.4):
-    resolution: {integrity: sha512-zJzueyC+LUphbrUEyeVmbR7VfAFObq2mr6ALfMytusHxzHJnOMCdxsw2GCTD67nThP1V22QFp9CZ/DulcZMl1g==}
+  /twrnc@4.6.0(postcss@8.4.21)(react-native@0.72.4):
+    resolution: {integrity: sha512-AZxkz6gfj17YjazGLebYjTH/bhKnd3vQq9070vVv8p/OGxU0xH77b9Koezu1pW93NY0dn77CGOtuzd2EsM7AfQ==}
     peerDependencies:
-      react-native: '>=0.63.0'
+      react-native: '>=0.62.2'
     dependencies:
       react-native: 0.72.4(@babel/core@7.22.20)(@babel/preset-env@7.22.20)(react@17.0.2)
       tailwindcss: 3.1.8(postcss@8.4.21)
@@ -8934,7 +8935,7 @@ packages:
     dev: true
 
   /utils-merge@1.0.1:
-    resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
+    resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
     dev: true
 
